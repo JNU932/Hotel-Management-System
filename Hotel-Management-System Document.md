@@ -2,18 +2,18 @@
 &nbsp;
 ## <font size = 6>Catalog</font>
 
-> + [BackgroundSystem](###BackgroundSystem)
-> + [Dish](###Dish)
-> + [Dishes](###Dishes)
-> + [DishInfo](###DishInfo)
-> + [Kitchen](###Kitchen)
-> + [Menu](###Menu)
-> + [Order](###Order)
-> + [OrderInfo](###OrderInfo)
-> + [OrderLibrary](###OrderLibrary)
-> + [OrderSolver](###OrderSolver)
-> + [StaffManager](###StaffManager)
-> + [Storage](###Strorage)
+> + [BackgroundSystem](#backgroundsystem)
+> + [Dish](#dish)
+> + [Dishes](#dishes)
+> + [DishInfo](#dishinfo)
+> + [Kitchen](#kitchen)
+> + [Menu](#menu)
+> + [Order](#order)
+> + [OrderInfo](#orderinfo)
+> + [OrderLibrary](#orderlibrary)
+> + [OrderSolver](#ordersolver)
+> + [StaffManager](#staffmanager)
+> + [Storage](#storage)
 
 
 ---
