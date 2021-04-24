@@ -5,9 +5,10 @@
 #ifndef HOTEL_MANAGEMENT_SYSTEM_DISHES_H
 #define HOTEL_MANAGEMENT_SYSTEM_DISHES_H
 
-#include "Dish.h"
 #include "DishInfo.h"
 #include <vector>
+
+using namespace std;
 
 class Dishes {
 public:
