@@ -10,3 +10,6 @@
   + 员工权限管理：包括员工账号权限等级的更新。
   + 库存管理：包括食材的存入登记、消耗登记、库存数量登记。
   + 订单流程处理：包括订单的创建，订单中菜品的制作管理、上桌管理。
+  
+  ## 项目开发文档
+  https://github.com/JNU932/Hotel-Management-System/blob/main/Hotel-Management-System%20Document.md
