@@ -5,22 +5,41 @@
 #ifndef HOTEL_MANAGEMENT_SYSTEM_ORDER_H
 #define HOTEL_MANAGEMENT_SYSTEM_ORDER_H
 
-#include "OrderInfo.h"
-
 using namespace std;
 
-class Order {
+class Order
+{
 private:
-    int cnt = 0;
-    map<int,OrderInfo> OrderList;
-public:
-    //生成订单
-    OrderInfo GenerateOrderInfo();
-    //某项菜品完成
-    bool OnDishFinished(int orderID, int dishID);
-    //获取订单状态  0:未完成  1:已完成  -1:订单不存在
-    int GetOrderState(int orderID);
-};
+    //订单编号
+    int OrderID;
+    //总价
+    int Price;
+    //创建者
+    int Creator;
+    //订单状态
+    bool OrderState;
+    //菜品列表, <菜品号,<菜品数量,完成数量>>
+    map<int, pair<int, int>> DishesList;
 
+    //当菜品完成后，检查订单是否已完成
+    bool OrderCheck();
+public:
+    Order(int id, int pri, int cre, map<int, pair<int, int>> &list);
+
+    //获取订单ID
+    int GetOrderID() const;
+    //获取订单总价
+    int GetPrice() const;
+    //获取订单创建者
+    int GetCreator() const;
+    //修改预定菜品数量
+    bool ChangeDishNums(int dishID, int num);
+    //获取订单状态
+    bool GetOrderState() const;
+    //完成菜品
+    bool FinishDish(int dishID);
+    //添加或移除菜品
+    bool ChangeDishNums(int dishID, int num);
+};
 
 #endif //HOTEL_MANAGEMENT_SYSTEM_ORDER_H
