@@ -11,15 +11,19 @@
 using namespace std;
 
 class Dishes {
+private:
+    static map<int,DishInfo> DishesList;
 public:
     //检查菜品的可用情况
-    bool CheckDishState(int dishID);
+    static bool CheckDishState(int dishID);
     //添加菜品
-    int AddDishType(string name, int price, string description, map<string, int> materialsList);
+    static bool AddDishType(int id, string name, int price, string description, map<string, int> materialsList);
     //移除菜品
-    bool RemoveDishType(int dishID);
+    static bool RemoveDishType(int dishID);
+    //获取菜品价格
+    static int GetDishPrice(int dishID);
     //获取菜品表单
-    vector<DishInfo> GetDishesList();
+    static map<int,DishInfo> GetDishesList();
 };
 
 

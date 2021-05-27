@@ -3,19 +3,35 @@
 //
 
 #include "Dishes.h"
+using namespace std;
 
 bool Dishes::CheckDishState(int dishID) {
     return false;
 }
 
-int Dishes::AddDishType(string name, int price, string description, map<string, int> materialsList) {
-    return 0;
+bool Dishes::AddDishType(int dishID, string name, int price, string description, map<string, int> materialsList) {
+    if(DishesList.count(dishID))
+        return false;
+    DishesList.insert(make_pair(dishID,DishInfo(dishID,true,name,materialsList,price,description)));
+    return true;
 }
 
 bool Dishes::RemoveDishType(int dishID) {
-    return false;
+    if(!DishesList.count(dishID))
+        return false;
+    DishesList.erase(dishID);
+    return true;
 }
 
-vector<DishInfo> Dishes::GetDishesList() {
-    return vector<DishInfo>();
+int Dishes::GetDishPrice(int dishID)
+{
+    if(DishesList.count(dishID))
+    {
+        return DishesList.at(dishID).GetPrice();
+    }
+    return -1;
+}
+
+map<int,DishInfo> Dishes::GetDishesList() {
+    return DishesList;
 }
