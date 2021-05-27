@@ -5,6 +5,7 @@
 #ifndef HOTEL_MANAGEMENT_SYSTEM_ORDER_H
 #define HOTEL_MANAGEMENT_SYSTEM_ORDER_H
 
+#include <map>
 using namespace std;
 
 class Order
@@ -32,8 +33,6 @@ public:
     int GetPrice() const;
     //获取订单创建者
     int GetCreator() const;
-    //修改预定菜品数量
-    bool ChangeDishNums(int dishID, int num);
     //获取订单状态
     bool GetOrderState() const;
     //完成菜品
