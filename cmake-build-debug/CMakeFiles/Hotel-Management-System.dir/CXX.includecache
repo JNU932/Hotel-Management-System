@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/86135/CLionProjects/Hotel-Management-System/Dish/DishInfo.h
+string
+-
+map
+-
+
+C:/Users/86135/CLionProjects/Hotel-Management-System/Dish/Dishes.h
+DishInfo.h
+C:/Users/86135/CLionProjects/Hotel-Management-System/Dish/DishInfo.h
+vector
+-
+
+C:/Users/86135/CLionProjects/Hotel-Management-System/Order/Order.h
+map
+-
+
+C:/Users/86135/CLionProjects/Hotel-Management-System/Order/OrderLibrary.h
+../Order/Order.h
+C:/Users/86135/CLionProjects/Hotel-Management-System/Order/Order.h
+
+C:/Users/86135/CLionProjects/Hotel-Management-System/main.cpp
+iostream
+-
+stdio.h
+-
+./Dish/Dishes.h
+C:/Users/86135/CLionProjects/Hotel-Management-System/Dish/Dishes.h
+./Order/OrderLibrary.h
+C:/Users/86135/CLionProjects/Hotel-Management-System/Order/OrderLibrary.h
+
