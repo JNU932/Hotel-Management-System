@@ -1,6 +1,14 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Hotel-Management-System.dir/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c.obj"
+  "CMakeFiles/Hotel-Management-System.dir/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj"
+  "CMakeFiles/Hotel-Management-System.dir/CMakeFiles/feature_tests.cxx.obj"
   "CMakeFiles/Hotel-Management-System.dir/Dish/DishInfo.cpp.obj"
   "CMakeFiles/Hotel-Management-System.dir/Dish/Dishes.cpp.obj"
+  "CMakeFiles/Hotel-Management-System.dir/Kitchen/Kitchen.cpp.obj"
+  "CMakeFiles/Hotel-Management-System.dir/Menu/Menu.cpp.obj"
+  "CMakeFiles/Hotel-Management-System.dir/Order/Order.cpp.obj"
+  "CMakeFiles/Hotel-Management-System.dir/Order/OrderLibrary.cpp.obj"
+  "CMakeFiles/Hotel-Management-System.dir/Order/OrderManager.cpp.obj"
   "CMakeFiles/Hotel-Management-System.dir/main.cpp.obj"
   "Hotel-Management-System.exe"
   "Hotel-Management-System.exe.manifest"
@@ -9,6 +17,6 @@ file(REMOVE_RECURSE
 )
 
 # Per-language clean rules from dependency scanning.
-foreach(lang CXX)
+foreach(lang C CXX)
   include(CMakeFiles/Hotel-Management-System.dir/cmake_clean_${lang}.cmake OPTIONAL)
 endforeach()
