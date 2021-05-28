@@ -17,6 +17,8 @@ private:
     int Price;
     //创建者
     int Creator;
+    //桌号
+    int TableID;
     //订单状态
     bool OrderState;
     //菜品列表, <菜品号,<菜品数量,完成数量>>
@@ -25,7 +27,7 @@ private:
     //当菜品完成后，检查订单是否已完成
     bool OrderCheck();
 public:
-    Order(int id, int pri, int cre, map<int, pair<int, int>> &list);
+    Order(int id, int price, int creator, map<int, pair<int, int>> &list);
 
     //获取订单ID
     int GetOrderID() const;
