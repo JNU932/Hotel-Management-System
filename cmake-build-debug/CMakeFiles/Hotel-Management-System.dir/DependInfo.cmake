@@ -4,12 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/86135/CLionProjects/Hotel-Management-System/Dish/DishInfo.cpp" "C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/Dish/DishInfo.cpp.obj"
-  "C:/Users/86135/CLionProjects/Hotel-Management-System/Dish/Dishes.cpp" "C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/Dish/Dishes.cpp.obj"
-  "C:/Users/86135/CLionProjects/Hotel-Management-System/Kitchen/Kitchen.cpp" "C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/Kitchen/Kitchen.cpp.obj"
-  "C:/Users/86135/CLionProjects/Hotel-Management-System/Order/Order.cpp" "C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/Order/Order.cpp.obj"
-  "C:/Users/86135/CLionProjects/Hotel-Management-System/Order/OrderInfo.cpp" "C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/Order/OrderInfo.cpp.obj"
-  "C:/Users/86135/CLionProjects/Hotel-Management-System/main.cpp" "C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/main.cpp.obj"
+  "E:/ComputerLearning/Hotel-Management-System/Dish/DishInfo.cpp" "E:/ComputerLearning/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/Dish/DishInfo.cpp.obj"
+  "E:/ComputerLearning/Hotel-Management-System/Dish/Dishes.cpp" "E:/ComputerLearning/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/Dish/Dishes.cpp.obj"
+  "E:/ComputerLearning/Hotel-Management-System/main.cpp" "E:/ComputerLearning/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -3,7 +3,8 @@
 //
 
 #include "Dishes.h"
-using namespace std;
+
+map<int,DishInfo> Dishes::DishesList;
 
 bool Dishes::CheckDishState(int dishID) {
     return false;

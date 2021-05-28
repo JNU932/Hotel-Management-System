@@ -1,9 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Hotel-Management-System.dir/Dish/DishInfo.cpp.obj"
   "CMakeFiles/Hotel-Management-System.dir/Dish/Dishes.cpp.obj"
-  "CMakeFiles/Hotel-Management-System.dir/Kitchen/Kitchen.cpp.obj"
-  "CMakeFiles/Hotel-Management-System.dir/Order/Order.cpp.obj"
-  "CMakeFiles/Hotel-Management-System.dir/Order/OrderInfo.cpp.obj"
   "CMakeFiles/Hotel-Management-System.dir/main.cpp.obj"
   "Hotel-Management-System.exe"
   "Hotel-Management-System.exe.manifest"

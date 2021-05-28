@@ -1,3 +1,3 @@
-"D:\Program Files (x86)\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Hotel-Management-System.dir/objects.a
-C:\PROGRA~2\CODEBL~1\MinGW\bin\ar.exe cr CMakeFiles\Hotel-Management-System.dir/objects.a @CMakeFiles\Hotel-Management-System.dir\objects1.rsp
-C:\PROGRA~2\CODEBL~1\MinGW\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Hotel-Management-System.dir/objects.a -Wl,--no-whole-archive -o Hotel-Management-System.exe -Wl,--out-implib,libHotel-Management-System.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Hotel-Management-System.dir\linklibs.rsp
+"D:\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\Hotel-Management-System.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\Hotel-Management-System.dir/objects.a @CMakeFiles\Hotel-Management-System.dir\objects1.rsp
+C:\MinGW\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\Hotel-Management-System.dir/objects.a -Wl,--no-whole-archive  -o Hotel-Management-System.exe -Wl,--out-implib,libHotel-Management-System.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Hotel-Management-System.dir\linklibs.rsp

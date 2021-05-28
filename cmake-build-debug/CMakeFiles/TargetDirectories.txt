@@ -1,3 +1,3 @@
-C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir
-C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+E:/ComputerLearning/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir
+E:/ComputerLearning/Hotel-Management-System/cmake-build-debug/CMakeFiles/edit_cache.dir
+E:/ComputerLearning/Hotel-Management-System/cmake-build-debug/CMakeFiles/rebuild_cache.dir
