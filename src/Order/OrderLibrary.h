@@ -1,7 +1,7 @@
 //
 // Created by right on 2021/5/27.
 //
-
+#pragma
 #ifndef HOTEL_MANAGEMENT_SYSTEM_ORDERLIBRARY_H
 #define HOTEL_MANAGEMENT_SYSTEM_ORDERLIBRARY_H
 

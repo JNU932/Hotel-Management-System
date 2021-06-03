@@ -26,6 +26,9 @@ int OrderManager::CreateOrder(map<int,int> &dishesList, int creatorID, int table
     {
         dish_list.insert(make_pair(p.first, make_pair(p.second, 0)));
     }
+
+    
+
     //创建订单
     Order order = Order(id, price, creatorID, dish_list);
     OrderList.insert(make_pair(id, order));

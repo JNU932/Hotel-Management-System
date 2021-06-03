@@ -3,7 +3,7 @@
 //
 
 #include "Storage.h"
-
+map<string,int> Storage::FoodStorage;
 
 bool Storage::AddMaterial(string name, int num)
 {

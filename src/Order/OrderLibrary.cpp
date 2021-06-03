@@ -19,10 +19,15 @@ void OrderLibrary::InitLib()
     if(f == 0)
     {
         f = fopen("/Orders/LibraryInfo.csv", "w+");
-        char *ordercnt_str = "order_cnt";
+        char *ordercnt_str = (char*)"order_cnt";
         fprintf(f, "%s\n", ordercnt_str);
         fprintf(f, "%d\n", 0);
     }
-    fscanf(f, "%s")
+    fscanf(f, "%s");
 
+}
+
+bool OrderLibrary::AddOrder(Order order)
+{
+    return true;
 }
