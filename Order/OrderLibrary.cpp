@@ -1,5 +1,6 @@
 #include "OrderLibrary.h"
 #include <iostream>
+#include "stdio.h"
 
 bool OrderLibrary::initialized = false;
 int OrderLibrary::order_cnt = 0;
@@ -23,6 +24,6 @@ void OrderLibrary::InitLib()
         fprintf(f, "%s\n", ordercnt_str);
         fprintf(f, "%d\n", 0);
     }
-    fscanf(f, "%s")
+    fscanf(f, "%s");
 
 }

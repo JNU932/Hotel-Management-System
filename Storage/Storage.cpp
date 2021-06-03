@@ -4,6 +4,17 @@
 
 #include "Storage.h"
 
+void Storage::GetFoodList()
+{
+    int n,num;
+    string name;
+    freopen("\\Data\\Storage\\FoodList.txt","r",stdin);
+    while (n--)
+    {
+        cin >> name >> num;
+        FoodStorage.insert({name,num});
+    }
+}
 
 bool Storage::AddMaterial(string name, int num)
 {
