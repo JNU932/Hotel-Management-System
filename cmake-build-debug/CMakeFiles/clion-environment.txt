@@ -1,4 +1,4 @@
-ToolSet: 3.20 (local)@C:\Program Files (x86)\CodeBlocks\MinGW
+ToolSet: w64 6.0 (local)@C:\Users\Lenovo\Downloads\codeblocks-20.03mingw-nosetup\MinGW
 Options: 
 
 Options:

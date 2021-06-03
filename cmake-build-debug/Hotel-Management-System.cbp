@@ -8,340 +8,310 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Hotel-Management-System">
-				<Option output="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Hotel-Management-System.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug"/>
+				<Option output="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Hotel-Management-System.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hotel-Management-System"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hotel-Management-System"/>
+					<CompileFile command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Hotel-Management-System/fast">
-				<Option output="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Hotel-Management-System.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug"/>
+				<Option output="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Hotel-Management-System.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/mingw32"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include/c++/backward"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/../../../../include"/>
-					<Add directory="C:/Program Files (x86)/CodeBlocks/MinGW/bin/../lib/gcc/mingw32/4.9.2/include-fixed"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hotel-Management-System/fast"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 Hotel-Management-System/fast"/>
+					<CompileFile command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/PROGRA~2/CODEBL~1/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/Users/Lenovo/Downloads/codeblocks-20.03mingw-nosetup/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/applypatch-msg.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/applypatch-msg.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/commit-msg.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/commit-msg.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/fsmonitor-watchman.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/fsmonitor-watchman.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/post-update.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/post-update.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/pre-applypatch.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/pre-applypatch.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/pre-commit.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/pre-commit.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/pre-merge-commit.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/pre-merge-commit.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/pre-push.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/pre-push.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/pre-rebase.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/pre-rebase.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/pre-receive.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/pre-receive.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/prepare-commit-msg.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/prepare-commit-msg.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.git/hooks/update.sample">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/hooks/update.sample">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.gitignore">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/objects/pack/pack-6e2588f588d8dd58569de916744c604743146d59.idx">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/.gitignore">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.git/objects/pack/pack-6e2588f588d8dd58569de916744c604743146d59.pack">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/Hotel-Management-System.iml">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.gitignore">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/codeStyles/codeStyleConfig.xml">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.idea/.gitignore">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/dictionaries/leg.xml">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.idea/Hotel-Management-System.iml">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/markdown-navigator-enh.xml">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.idea/codeStyles/codeStyleConfig.xml">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/markdown-navigator.xml">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.idea/dictionaries/leg.xml">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/misc.xml">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.idea/markdown-navigator-enh.xml">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/modules.xml">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.idea/markdown-navigator.xml">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_28_11_23_[Default_Changelist]/CMakeDetermineCompilerABI_C.bin">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.idea/misc.xml">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_28_11_23_[Default_Changelist]/CMakeDetermineCompilerABI_CXX.bin">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.idea/modules.xml">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_28_11_23_[Default_Changelist]/LastTest.log">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.idea/vcs.xml">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_28_11_23_[Default_Changelist]/a.exe">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/.idea/workspace.xml">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_28_11_23_[Default_Changelist]/a1.exe">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/CMakeLists.txt">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_28_11_23_[Default_Changelist]/feature_tests.bin">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Dish/DishInfo.cpp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_28_11_23_[Default_Changelist]/shelved.patch">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Dish/DishInfo.h">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/shelf/Uncommitted_changes_before_Update_at_2021_5_28_11_23__Default_Changelist_.xml">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Dish/Dishes.cpp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/vcs.xml">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Dish/Dishes.h">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/.idea/workspace.xml">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Hotel-Management-System Document.md">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/CMakeLists.txt">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Kitchen/Kitchen.cpp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Dish/DishInfo.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Kitchen/Kitchen.h">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Dish/DishInfo.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Menu/Menu.cpp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Dish/Dishes.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Menu/Menu.h">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Dish/Dishes.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Order/Order.cpp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Hotel-Management-System Document.md">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Order/Order.h">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Kitchen/Kitchen.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Order/OrderLibrary.cpp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Kitchen/Kitchen.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Order/OrderLibrary.h">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Menu/Menu.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Order/OrderManager.cpp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Menu/Menu.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Order/OrderManager.h">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Order/Order.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/README.md">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Order/Order.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Storage/Storage.cpp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Order/OrderLibrary.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/Storage/Storage.h">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Order/OrderLibrary.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeCache.txt">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Order/OrderManager.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.17.5/CMakeCCompiler.cmake">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/Order/OrderManager.h">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.17.5/CMakeCXXCompiler.cmake">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/README.md">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_C.bin">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeCache.txt">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.17.5/CMakeDetermineCompilerABI_CXX.bin">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.19.2/CMakeCCompiler.cmake">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.17.5/CMakeRCCompiler.cmake">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.19.2/CMakeCXXCompiler.cmake">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.17.5/CMakeSystem.cmake">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_C.bin">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.19.2/CMakeDetermineCompilerABI_CXX.bin">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdC/a.exe">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.19.2/CMakeRCCompiler.cmake">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.19.2/CMakeSystem.cmake">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.17.5/CompilerIdCXX/a.exe">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/CMakeCCompilerId.c">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdC/a.exe">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/CMakeOutput.log">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/CMakeCXXCompilerId.cpp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/DependInfo.cmake">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/3.19.2/CompilerIdCXX/a.exe">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/build.make">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/cmake_clean.cmake">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/CMakeOutput.log">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/depend.make">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/CXX.includecache">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/flags.make">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/DependInfo.cmake">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/link.txt">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/build.make">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/linklibs.rsp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/cmake_clean.cmake">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/objects1.rsp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/depend.internal">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/progress.make">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/depend.make">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Makefile.cmake">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/flags.make">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/TargetDirectories.txt">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/link.txt">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/clion-environment.txt">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/linklibs.rsp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/clion-log.txt">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/main.cpp.obj">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/cmake.check_cache">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/objects.a">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/progress.marks">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/objects1.rsp">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Hotel-Management-System.cbp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Hotel-Management-System.dir/progress.make">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Hotel-Management-System.exe">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/Makefile.cmake">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/Testing/Temporary/LastTest.log">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/TargetDirectories.txt">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/cmake-build-debug/cmake_install.cmake">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/clion-environment.txt">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/main.cpp">
 			<Option target="Hotel-Management-System"/>
 		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/clion-log.txt">
-			<Option target="Hotel-Management-System"/>
-		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/cmake.check_cache">
-			<Option target="Hotel-Management-System"/>
-		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/feature_tests.bin">
-			<Option target="Hotel-Management-System"/>
-		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/feature_tests.cxx">
-			<Option target="Hotel-Management-System"/>
-		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/CMakeFiles/progress.marks">
-			<Option target="Hotel-Management-System"/>
-		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Hotel-Management-System.cbp">
-			<Option target="Hotel-Management-System"/>
-		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Hotel-Management-System.exe">
-			<Option target="Hotel-Management-System"/>
-		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/Testing/Temporary/LastTest.log">
-			<Option target="Hotel-Management-System"/>
-		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/cmake-build-debug/cmake_install.cmake">
-			<Option target="Hotel-Management-System"/>
-		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/main.cpp">
-			<Option target="Hotel-Management-System"/>
-		</Unit>
-		<Unit filename="C:/Users/86135/CLionProjects/Hotel-Management-System/CMakeLists.txt">
+		<Unit filename="C:/Users/Lenovo/CLionProjects/Hotel-Management-System/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

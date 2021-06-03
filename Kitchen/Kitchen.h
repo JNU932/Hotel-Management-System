@@ -5,6 +5,8 @@
 #ifndef HOTEL_MANAGEMENT_SYSTEM_KITCHEN_H
 #define HOTEL_MANAGEMENT_SYSTEM_KITCHEN_H
 
+#include "../Order/OrderManager.h"
+#include "../Dish/Dishes.h"
 
 class Kitchen{
 public:
