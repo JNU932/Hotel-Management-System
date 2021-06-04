@@ -7,25 +7,26 @@
 
 #include "string"
 #include "map"
-#include "fstream"
 #include "iostream"
+#include <fstream>
 
 using namespace std;
 
 class Storage {
 private:
     //食材库存
-    static map<string,int> FoodStorage;
+    static map<string,int> MaterialsList;
 public:
-    //获取食材列表
-    static void GetFoodList();
-    //
+    //从硬盘中获取食材列表
+    static void GetMaterialsList();
+    //保存当前食材列表到硬盘
+    static void SaveMaterialsList();
     //添加食材
     static bool AddMaterial(string name, int num);
-    //移除食材
+    //消耗食材
     static bool TakeMaterial(string name, int num);
     //查询食材数量
-    static int GetFoodNum(string name);
+    static int GetMaterialsNum(string name);
 };
 
 

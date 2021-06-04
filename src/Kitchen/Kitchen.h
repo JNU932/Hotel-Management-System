@@ -7,11 +7,12 @@
 
 #include "../Order/OrderManager.h"
 #include "../Dish/Dishes.h"
+#include "../Storage/Storage.h"
 
 class Kitchen{
 public:
     //添加菜品制作任务
-    void AddTask(int orderID, int dishID);
+    bool AddTask(int orderID, int dishID);
     //菜品制作完成
     void FinishTask(int orderID, int dishID);
     //orderID: 订单编号   dishID: 菜品编号

@@ -21,7 +21,7 @@ private:
     //菜品名
     string Name;
     //菜品的原材料清单
-    map<std::string, int> MaterialsList;
+    map<string, int> MaterialsList;
     //菜品单价
     int Price;
     //描述

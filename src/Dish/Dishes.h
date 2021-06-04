@@ -22,6 +22,8 @@ public:
     static bool RemoveDishType(int dishID);
     //获取菜品价格
     static int GetDishPrice(int dishID);
+    //获取菜品原材料
+    static map<string,int> GetMaterialsList(int dishID);
     //获取菜品表单
     static map<int,DishInfo> GetDishesList();
 };
