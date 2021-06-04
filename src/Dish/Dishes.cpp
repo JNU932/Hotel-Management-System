@@ -32,6 +32,10 @@ int Dishes::GetDishPrice(int dishID)
     }
     return -1;
 }
+map<string, int> Dishes::GetMaterialsList(int dishID)
+{
+    return DishesList.at(dishID).GetMaterialsList();
+}
 
 map<int,DishInfo> Dishes::GetDishesList() {
     return DishesList;
