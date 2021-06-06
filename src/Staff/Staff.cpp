@@ -4,12 +4,13 @@
 
 #include "Staff.h"
 
-Staff::Staff(int id, string name, int level, int donate)
+
+Staff::Staff(int id, string name, int level, int performance)
 {
     StaffID = id;
-    StaffName = name;
+    StaffName = std::move(name);
     StaffLevel = level;
-    StaffDonate = donate;
+    StaffPerformance = performance;
 }
 
 int Staff::GetID() const
@@ -27,9 +28,9 @@ int Staff::GetLevel() const
     return StaffLevel;
 }
 
-int Staff::GetDonate() const
+int Staff::GetPerformance() const
 {
-    return StaffDonate;
+    return StaffPerformance;
 }
 
 void Staff::Promote(int num)
@@ -50,8 +51,8 @@ void Staff::ChangeDonate(int num)
 {
     try
     {
-        if(StaffDonate+num>0)
-            StaffDonate+=num;
+        if(StaffPerformance+num>0)
+            StaffPerformance+=num;
         else
             throw "Try again";
     }

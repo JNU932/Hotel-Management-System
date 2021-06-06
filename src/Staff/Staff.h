@@ -17,11 +17,11 @@ private:
     //员工姓名
     string StaffName;
     //员工的等级、绩效
-    int StaffLevel, StaffDonate;
+    int StaffLevel, StaffPerformance;
 
 public:
     //构造函数
-    Staff(int id, string name, int level, int donate);
+    Staff(int id, string name, int level, int performance);
 
     //获取ID
     int GetID() const;
@@ -30,7 +30,7 @@ public:
     //获取等级
     int GetLevel() const;
     //获取绩效
-    int GetDonate() const;
+    int GetPerformance() const;
     //升降职
     void Promote(int num);
     //增减绩效

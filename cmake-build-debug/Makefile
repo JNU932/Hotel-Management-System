@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "D:\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "D:\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Lenovo\CLionProjects\Hotel-Management-System
+CMAKE_SOURCE_DIR = E:\ComputerLearning\Hotel-Management-System
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Lenovo\CLionProjects\Hotel-Management-System\cmake-build-debug
+CMAKE_BINARY_DIR = E:\ComputerLearning\Hotel-Management-System\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\Users\Lenovo\CLionProjects\Hotel-Management-System\cmake-b
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"D:\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"D:\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lenovo\CLionProjects\Hotel-Management-System\cmake-build-debug\CMakeFiles C:\Users\Lenovo\CLionProjects\Hotel-Management-System\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ComputerLearning\Hotel-Management-System\cmake-build-debug\CMakeFiles E:\ComputerLearning\Hotel-Management-System\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Lenovo\CLionProjects\Hotel-Management-System\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start E:\ComputerLearning\Hotel-Management-System\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -142,302 +142,302 @@ Hotel-Management-System/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/build
 .PHONY : Hotel-Management-System/fast
 
-CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.obj: CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.obj
+src/Dish/DishInfo.obj: src/Dish/DishInfo.cpp.obj
 
-.PHONY : CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.obj
-
-# target to build an object file
-CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.obj
-.PHONY : CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.obj
-
-CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.i: CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.i
-
-.PHONY : CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.i
-
-# target to preprocess a source file
-CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.i
-.PHONY : CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.i
-
-CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.s: CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.s
-
-.PHONY : CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.s
-
-# target to generate assembly for a file
-CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.s
-.PHONY : CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.c.s
-
-CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.obj: CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
-
-.PHONY : CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.obj
+.PHONY : src/Dish/DishInfo.obj
 
 # target to build an object file
-CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
-.PHONY : CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj
+src/Dish/DishInfo.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Dish/DishInfo.cpp.obj
+.PHONY : src/Dish/DishInfo.cpp.obj
 
-CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.i: CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+src/Dish/DishInfo.i: src/Dish/DishInfo.cpp.i
 
-.PHONY : CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.i
+.PHONY : src/Dish/DishInfo.i
 
 # target to preprocess a source file
-CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
-.PHONY : CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.i
+src/Dish/DishInfo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Dish/DishInfo.cpp.i
+.PHONY : src/Dish/DishInfo.cpp.i
 
-CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.s: CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+src/Dish/DishInfo.s: src/Dish/DishInfo.cpp.s
 
-.PHONY : CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.s
+.PHONY : src/Dish/DishInfo.s
 
 # target to generate assembly for a file
-CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
-.PHONY : CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.cpp.s
+src/Dish/DishInfo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Dish/DishInfo.cpp.s
+.PHONY : src/Dish/DishInfo.cpp.s
 
-Dish/DishInfo.obj: Dish/DishInfo.cpp.obj
+src/Dish/Dishes.obj: src/Dish/Dishes.cpp.obj
 
-.PHONY : Dish/DishInfo.obj
+.PHONY : src/Dish/Dishes.obj
 
 # target to build an object file
-Dish/DishInfo.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Dish/DishInfo.cpp.obj
-.PHONY : Dish/DishInfo.cpp.obj
+src/Dish/Dishes.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Dish/Dishes.cpp.obj
+.PHONY : src/Dish/Dishes.cpp.obj
 
-Dish/DishInfo.i: Dish/DishInfo.cpp.i
+src/Dish/Dishes.i: src/Dish/Dishes.cpp.i
 
-.PHONY : Dish/DishInfo.i
+.PHONY : src/Dish/Dishes.i
 
 # target to preprocess a source file
-Dish/DishInfo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Dish/DishInfo.cpp.i
-.PHONY : Dish/DishInfo.cpp.i
+src/Dish/Dishes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Dish/Dishes.cpp.i
+.PHONY : src/Dish/Dishes.cpp.i
 
-Dish/DishInfo.s: Dish/DishInfo.cpp.s
+src/Dish/Dishes.s: src/Dish/Dishes.cpp.s
 
-.PHONY : Dish/DishInfo.s
+.PHONY : src/Dish/Dishes.s
 
 # target to generate assembly for a file
-Dish/DishInfo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Dish/DishInfo.cpp.s
-.PHONY : Dish/DishInfo.cpp.s
+src/Dish/Dishes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Dish/Dishes.cpp.s
+.PHONY : src/Dish/Dishes.cpp.s
 
-Dish/Dishes.obj: Dish/Dishes.cpp.obj
+src/Kitchen/Kitchen.obj: src/Kitchen/Kitchen.cpp.obj
 
-.PHONY : Dish/Dishes.obj
+.PHONY : src/Kitchen/Kitchen.obj
 
 # target to build an object file
-Dish/Dishes.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Dish/Dishes.cpp.obj
-.PHONY : Dish/Dishes.cpp.obj
+src/Kitchen/Kitchen.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Kitchen/Kitchen.cpp.obj
+.PHONY : src/Kitchen/Kitchen.cpp.obj
 
-Dish/Dishes.i: Dish/Dishes.cpp.i
+src/Kitchen/Kitchen.i: src/Kitchen/Kitchen.cpp.i
 
-.PHONY : Dish/Dishes.i
+.PHONY : src/Kitchen/Kitchen.i
 
 # target to preprocess a source file
-Dish/Dishes.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Dish/Dishes.cpp.i
-.PHONY : Dish/Dishes.cpp.i
+src/Kitchen/Kitchen.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Kitchen/Kitchen.cpp.i
+.PHONY : src/Kitchen/Kitchen.cpp.i
 
-Dish/Dishes.s: Dish/Dishes.cpp.s
+src/Kitchen/Kitchen.s: src/Kitchen/Kitchen.cpp.s
 
-.PHONY : Dish/Dishes.s
+.PHONY : src/Kitchen/Kitchen.s
 
 # target to generate assembly for a file
-Dish/Dishes.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Dish/Dishes.cpp.s
-.PHONY : Dish/Dishes.cpp.s
+src/Kitchen/Kitchen.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Kitchen/Kitchen.cpp.s
+.PHONY : src/Kitchen/Kitchen.cpp.s
 
-Kitchen/Kitchen.obj: Kitchen/Kitchen.cpp.obj
+src/Menu/Menu.obj: src/Menu/Menu.cpp.obj
 
-.PHONY : Kitchen/Kitchen.obj
+.PHONY : src/Menu/Menu.obj
 
 # target to build an object file
-Kitchen/Kitchen.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Kitchen/Kitchen.cpp.obj
-.PHONY : Kitchen/Kitchen.cpp.obj
+src/Menu/Menu.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Menu/Menu.cpp.obj
+.PHONY : src/Menu/Menu.cpp.obj
 
-Kitchen/Kitchen.i: Kitchen/Kitchen.cpp.i
+src/Menu/Menu.i: src/Menu/Menu.cpp.i
 
-.PHONY : Kitchen/Kitchen.i
+.PHONY : src/Menu/Menu.i
 
 # target to preprocess a source file
-Kitchen/Kitchen.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Kitchen/Kitchen.cpp.i
-.PHONY : Kitchen/Kitchen.cpp.i
+src/Menu/Menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Menu/Menu.cpp.i
+.PHONY : src/Menu/Menu.cpp.i
 
-Kitchen/Kitchen.s: Kitchen/Kitchen.cpp.s
+src/Menu/Menu.s: src/Menu/Menu.cpp.s
 
-.PHONY : Kitchen/Kitchen.s
+.PHONY : src/Menu/Menu.s
 
 # target to generate assembly for a file
-Kitchen/Kitchen.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Kitchen/Kitchen.cpp.s
-.PHONY : Kitchen/Kitchen.cpp.s
+src/Menu/Menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Menu/Menu.cpp.s
+.PHONY : src/Menu/Menu.cpp.s
 
-Menu/Menu.obj: Menu/Menu.cpp.obj
+src/Order/Order.obj: src/Order/Order.cpp.obj
 
-.PHONY : Menu/Menu.obj
+.PHONY : src/Order/Order.obj
 
 # target to build an object file
-Menu/Menu.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Menu/Menu.cpp.obj
-.PHONY : Menu/Menu.cpp.obj
+src/Order/Order.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Order/Order.cpp.obj
+.PHONY : src/Order/Order.cpp.obj
 
-Menu/Menu.i: Menu/Menu.cpp.i
+src/Order/Order.i: src/Order/Order.cpp.i
 
-.PHONY : Menu/Menu.i
+.PHONY : src/Order/Order.i
 
 # target to preprocess a source file
-Menu/Menu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Menu/Menu.cpp.i
-.PHONY : Menu/Menu.cpp.i
+src/Order/Order.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Order/Order.cpp.i
+.PHONY : src/Order/Order.cpp.i
 
-Menu/Menu.s: Menu/Menu.cpp.s
+src/Order/Order.s: src/Order/Order.cpp.s
 
-.PHONY : Menu/Menu.s
+.PHONY : src/Order/Order.s
 
 # target to generate assembly for a file
-Menu/Menu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Menu/Menu.cpp.s
-.PHONY : Menu/Menu.cpp.s
+src/Order/Order.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Order/Order.cpp.s
+.PHONY : src/Order/Order.cpp.s
 
-Order/Order.obj: Order/Order.cpp.obj
+src/Order/OrderLibrary.obj: src/Order/OrderLibrary.cpp.obj
 
-.PHONY : Order/Order.obj
+.PHONY : src/Order/OrderLibrary.obj
 
 # target to build an object file
-Order/Order.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Order/Order.cpp.obj
-.PHONY : Order/Order.cpp.obj
+src/Order/OrderLibrary.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Order/OrderLibrary.cpp.obj
+.PHONY : src/Order/OrderLibrary.cpp.obj
 
-Order/Order.i: Order/Order.cpp.i
+src/Order/OrderLibrary.i: src/Order/OrderLibrary.cpp.i
 
-.PHONY : Order/Order.i
+.PHONY : src/Order/OrderLibrary.i
 
 # target to preprocess a source file
-Order/Order.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Order/Order.cpp.i
-.PHONY : Order/Order.cpp.i
+src/Order/OrderLibrary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Order/OrderLibrary.cpp.i
+.PHONY : src/Order/OrderLibrary.cpp.i
 
-Order/Order.s: Order/Order.cpp.s
+src/Order/OrderLibrary.s: src/Order/OrderLibrary.cpp.s
 
-.PHONY : Order/Order.s
+.PHONY : src/Order/OrderLibrary.s
 
 # target to generate assembly for a file
-Order/Order.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Order/Order.cpp.s
-.PHONY : Order/Order.cpp.s
+src/Order/OrderLibrary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Order/OrderLibrary.cpp.s
+.PHONY : src/Order/OrderLibrary.cpp.s
 
-Order/OrderLibrary.obj: Order/OrderLibrary.cpp.obj
+src/Order/OrderManager.obj: src/Order/OrderManager.cpp.obj
 
-.PHONY : Order/OrderLibrary.obj
+.PHONY : src/Order/OrderManager.obj
 
 # target to build an object file
-Order/OrderLibrary.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Order/OrderLibrary.cpp.obj
-.PHONY : Order/OrderLibrary.cpp.obj
+src/Order/OrderManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Order/OrderManager.cpp.obj
+.PHONY : src/Order/OrderManager.cpp.obj
 
-Order/OrderLibrary.i: Order/OrderLibrary.cpp.i
+src/Order/OrderManager.i: src/Order/OrderManager.cpp.i
 
-.PHONY : Order/OrderLibrary.i
+.PHONY : src/Order/OrderManager.i
 
 # target to preprocess a source file
-Order/OrderLibrary.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Order/OrderLibrary.cpp.i
-.PHONY : Order/OrderLibrary.cpp.i
+src/Order/OrderManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Order/OrderManager.cpp.i
+.PHONY : src/Order/OrderManager.cpp.i
 
-Order/OrderLibrary.s: Order/OrderLibrary.cpp.s
+src/Order/OrderManager.s: src/Order/OrderManager.cpp.s
 
-.PHONY : Order/OrderLibrary.s
+.PHONY : src/Order/OrderManager.s
 
 # target to generate assembly for a file
-Order/OrderLibrary.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Order/OrderLibrary.cpp.s
-.PHONY : Order/OrderLibrary.cpp.s
+src/Order/OrderManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Order/OrderManager.cpp.s
+.PHONY : src/Order/OrderManager.cpp.s
 
-Order/OrderManager.obj: Order/OrderManager.cpp.obj
+src/Staff/Staff.obj: src/Staff/Staff.cpp.obj
 
-.PHONY : Order/OrderManager.obj
+.PHONY : src/Staff/Staff.obj
 
 # target to build an object file
-Order/OrderManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Order/OrderManager.cpp.obj
-.PHONY : Order/OrderManager.cpp.obj
+src/Staff/Staff.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Staff/Staff.cpp.obj
+.PHONY : src/Staff/Staff.cpp.obj
 
-Order/OrderManager.i: Order/OrderManager.cpp.i
+src/Staff/Staff.i: src/Staff/Staff.cpp.i
 
-.PHONY : Order/OrderManager.i
+.PHONY : src/Staff/Staff.i
 
 # target to preprocess a source file
-Order/OrderManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Order/OrderManager.cpp.i
-.PHONY : Order/OrderManager.cpp.i
+src/Staff/Staff.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Staff/Staff.cpp.i
+.PHONY : src/Staff/Staff.cpp.i
 
-Order/OrderManager.s: Order/OrderManager.cpp.s
+src/Staff/Staff.s: src/Staff/Staff.cpp.s
 
-.PHONY : Order/OrderManager.s
+.PHONY : src/Staff/Staff.s
 
 # target to generate assembly for a file
-Order/OrderManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Order/OrderManager.cpp.s
-.PHONY : Order/OrderManager.cpp.s
+src/Staff/Staff.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Staff/Staff.cpp.s
+.PHONY : src/Staff/Staff.cpp.s
 
-Storage/Storage.obj: Storage/Storage.cpp.obj
+src/Staff/StaffManager.obj: src/Staff/StaffManager.cpp.obj
 
-.PHONY : Storage/Storage.obj
+.PHONY : src/Staff/StaffManager.obj
 
 # target to build an object file
-Storage/Storage.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Storage/Storage.cpp.obj
-.PHONY : Storage/Storage.cpp.obj
+src/Staff/StaffManager.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Staff/StaffManager.cpp.obj
+.PHONY : src/Staff/StaffManager.cpp.obj
 
-Storage/Storage.i: Storage/Storage.cpp.i
+src/Staff/StaffManager.i: src/Staff/StaffManager.cpp.i
 
-.PHONY : Storage/Storage.i
+.PHONY : src/Staff/StaffManager.i
 
 # target to preprocess a source file
-Storage/Storage.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Storage/Storage.cpp.i
-.PHONY : Storage/Storage.cpp.i
+src/Staff/StaffManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Staff/StaffManager.cpp.i
+.PHONY : src/Staff/StaffManager.cpp.i
 
-Storage/Storage.s: Storage/Storage.cpp.s
+src/Staff/StaffManager.s: src/Staff/StaffManager.cpp.s
 
-.PHONY : Storage/Storage.s
+.PHONY : src/Staff/StaffManager.s
 
 # target to generate assembly for a file
-Storage/Storage.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/Storage/Storage.cpp.s
-.PHONY : Storage/Storage.cpp.s
+src/Staff/StaffManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Staff/StaffManager.cpp.s
+.PHONY : src/Staff/StaffManager.cpp.s
 
-main.obj: main.cpp.obj
+src/Storage/Storage.obj: src/Storage/Storage.cpp.obj
 
-.PHONY : main.obj
+.PHONY : src/Storage/Storage.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+src/Storage/Storage.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Storage/Storage.cpp.obj
+.PHONY : src/Storage/Storage.cpp.obj
 
-main.i: main.cpp.i
+src/Storage/Storage.i: src/Storage/Storage.cpp.i
 
-.PHONY : main.i
+.PHONY : src/Storage/Storage.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/main.cpp.i
-.PHONY : main.cpp.i
+src/Storage/Storage.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Storage/Storage.cpp.i
+.PHONY : src/Storage/Storage.cpp.i
 
-main.s: main.cpp.s
+src/Storage/Storage.s: src/Storage/Storage.cpp.s
 
-.PHONY : main.s
+.PHONY : src/Storage/Storage.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/main.cpp.s
-.PHONY : main.cpp.s
+src/Storage/Storage.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/Storage/Storage.cpp.s
+.PHONY : src/Storage/Storage.cpp.s
+
+src/main.obj: src/main.cpp.obj
+
+.PHONY : src/main.obj
+
+# target to build an object file
+src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/main.cpp.obj
+.PHONY : src/main.cpp.obj
+
+src/main.i: src/main.cpp.i
+
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Hotel-Management-System.dir\build.make CMakeFiles/Hotel-Management-System.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
 
 # Help Target
 help:
@@ -448,39 +448,39 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Hotel-Management-System
-	@echo ... CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.obj
-	@echo ... CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.i
-	@echo ... CMakeFiles/3.17.5/CompilerIdC/CMakeCCompilerId.s
-	@echo ... CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.obj
-	@echo ... CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.i
-	@echo ... CMakeFiles/3.17.5/CompilerIdCXX/CMakeCXXCompilerId.s
-	@echo ... Dish/DishInfo.obj
-	@echo ... Dish/DishInfo.i
-	@echo ... Dish/DishInfo.s
-	@echo ... Dish/Dishes.obj
-	@echo ... Dish/Dishes.i
-	@echo ... Dish/Dishes.s
-	@echo ... Kitchen/Kitchen.obj
-	@echo ... Kitchen/Kitchen.i
-	@echo ... Kitchen/Kitchen.s
-	@echo ... Menu/Menu.obj
-	@echo ... Menu/Menu.i
-	@echo ... Menu/Menu.s
-	@echo ... Order/Order.obj
-	@echo ... Order/Order.i
-	@echo ... Order/Order.s
-	@echo ... Order/OrderLibrary.obj
-	@echo ... Order/OrderLibrary.i
-	@echo ... Order/OrderLibrary.s
-	@echo ... Order/OrderManager.obj
-	@echo ... Order/OrderManager.i
-	@echo ... Order/OrderManager.s
-	@echo ... Storage/Storage.obj
-	@echo ... Storage/Storage.i
-	@echo ... Storage/Storage.s
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... src/Dish/DishInfo.obj
+	@echo ... src/Dish/DishInfo.i
+	@echo ... src/Dish/DishInfo.s
+	@echo ... src/Dish/Dishes.obj
+	@echo ... src/Dish/Dishes.i
+	@echo ... src/Dish/Dishes.s
+	@echo ... src/Kitchen/Kitchen.obj
+	@echo ... src/Kitchen/Kitchen.i
+	@echo ... src/Kitchen/Kitchen.s
+	@echo ... src/Menu/Menu.obj
+	@echo ... src/Menu/Menu.i
+	@echo ... src/Menu/Menu.s
+	@echo ... src/Order/Order.obj
+	@echo ... src/Order/Order.i
+	@echo ... src/Order/Order.s
+	@echo ... src/Order/OrderLibrary.obj
+	@echo ... src/Order/OrderLibrary.i
+	@echo ... src/Order/OrderLibrary.s
+	@echo ... src/Order/OrderManager.obj
+	@echo ... src/Order/OrderManager.i
+	@echo ... src/Order/OrderManager.s
+	@echo ... src/Staff/Staff.obj
+	@echo ... src/Staff/Staff.i
+	@echo ... src/Staff/Staff.s
+	@echo ... src/Staff/StaffManager.obj
+	@echo ... src/Staff/StaffManager.i
+	@echo ... src/Staff/StaffManager.s
+	@echo ... src/Storage/Storage.obj
+	@echo ... src/Storage/Storage.i
+	@echo ... src/Storage/Storage.s
+	@echo ... src/main.obj
+	@echo ... src/main.i
+	@echo ... src/main.s
 .PHONY : help
 
 
