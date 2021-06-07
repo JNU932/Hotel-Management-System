@@ -46,7 +46,7 @@ void StaffManager::GetStaffList()
     }
     catch (...)
     {
-        cout << "Save Fail" << '\n';
+        cout << "Read Fail" << '\n';
     }
 }
 

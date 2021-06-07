@@ -3,6 +3,7 @@
 //
 
 
+#include <cstring>
 #include "Storage.h"
 
 map<string,int> Storage::MaterialsList;
@@ -10,86 +11,147 @@ map<string,int> Storage::MaterialsList;
 //获取本地食材列表
 void Storage::GetMaterialsList()
 {
-    int n,num;
-    string str;
-    ifstream data;
-    data.open("..\\lib\\Storage.txt");
-    data >> n;                  //食材种类
-    for(int i=1; i<=n; i++)
+    try 
     {
-        data >> str >> num;     //读入名称、数量
-        MaterialsList.insert({str,num});
+        int n,num;
+        string str;
+        ifstream data;
+        data.open("..\\Data\\Storage.txt");
+        if (!data)
+        {
+            throw "File Not Found";
+        }
+        data >> n;                  //食材种类
+        for(int i=1; i<=n; i++)
+        {
+            data >> str >> num;     //读入名称、数量
+            MaterialsList.insert({str,num});
+        }
+        data.close();               //关输入流
     }
-    data.close();               //关输入流
+    catch (const char*a)
+    {
+        throw a;
+    }
+    catch (...)
+    {
+        throw "Read Fail";
+    }
 }
 //保存食材列表到本地
 void Storage::SaveMaterialsList()
 {
-    ofstream data;
-    data.open("..\\lib\\Storage.txt");
-    data << MaterialsList.size() << '\n';               //食材种类
-    for(const auto& x : MaterialsList)
-        data << x.first << ' ' << x.second << '\n';     //写入名称、数量
-    data.close();                                       //关输出流
+    try 
+    {
+        ofstream data;
+        data.open("..\\Data\\Storage.txt");
+        data << MaterialsList.size() << '\n';               //食材种类
+        for(const auto& x : MaterialsList)
+            data << x.first << ' ' << x.second << '\n';     //写入名称、数量
+        data.close();                                       //关输出流
+    }
+    catch (...)
+    {
+        throw "Save Fail";
+    }
 }
 //添加一种食材
-bool Storage::AddMaterial(const string& name, int num)
+void Storage::AddMaterial(const string& name, int num)
 {
-    if(MaterialsList.count(name))
-        MaterialsList[name] += num;
-    else
-        MaterialsList[name] = num;
-    SaveMaterialsList();
-    return true;
+    try 
+    {
+        if(MaterialsList.count(name))
+            MaterialsList[name] += num;
+        else
+            MaterialsList[name] = num;
+        SaveMaterialsList();
+    }
+    catch (...)
+    {
+        throw "Add Fail";
+    }
 }
 //添加多种食材
-bool Storage::AddMaterial(const map<string, int>& Materials)
+void Storage::AddMaterial(const map<string, int>& Materials)
 {
-    for(const auto& x:Materials)
+    try
     {
-        if(MaterialsList.count(x.first))
-            MaterialsList[x.first] += x.second;
-        else
-            MaterialsList[x.first] = x.second;
+        for(const auto& x:Materials)
+        {
+            if(MaterialsList.count(x.first))
+                MaterialsList[x.first] += x.second;
+            else
+                MaterialsList[x.first] = x.second;
+        }
+        SaveMaterialsList();
     }
-    SaveMaterialsList();
-    return true;
+    catch (...)
+    {
+        throw "Add Fail";
+    }
 }
 //消耗一种食材
-bool Storage::TakeMaterial(const string& name, int num)
+void Storage::TakeMaterial(const string& name, int num)
 {
-    if(MaterialsList.count(name)&&MaterialsList[name]>=num)
-    {
+    try
+    {   //食材名称有误
+        if (!MaterialsList.count(name))
+            throw "Wrong Name";
+        //食材数量有误
+        if (MaterialsList[name]<num)
+            throw "Num Too Large";
+        
         if(MaterialsList[name]==num)
             MaterialsList.erase(name);
         else
             MaterialsList[name] -= num;
         SaveMaterialsList();
-        return true;
     }
-    return false;
+    catch (const char*a)
+    {
+        throw a;
+    }
 }
 //消耗多种食材
-bool Storage::TakeMaterial(const map<string, int>& Materials)
-{   //保证所有食材均充足
-    for(const auto& x:Materials)
-        if(!MaterialsList.count(x.first)||MaterialsList[x.first]<x.second)
-            return false;
-    //消耗食材
-    for(const auto& x:Materials)
+void Storage::TakeMaterial(const map<string, int>& Materials)
+{   
+    try 
     {
-        if(x.second==MaterialsList[x.first])
-            MaterialsList.erase(x.first);
-        else
-            MaterialsList[x.first] -= x.second;
+        //保证所有食材均充足
+        for(pair<string, int> x:Materials)
+        {
+            if (!MaterialsList.count(x.first) || MaterialsList[x.first] < x.second)
+                throw x.first;
+        }
+        //消耗食材
+        for(const auto& x:Materials)
+        {
+            if(x.second==MaterialsList[x.first])
+                MaterialsList.erase(x.first);
+            else
+                MaterialsList[x.first] -= x.second;
+        }
+        Storage::SaveMaterialsList();
     }
-    Storage::SaveMaterialsList();
-    return true;
+    catch (string &a)
+    {
+        throw a;
+    }
+
 }
 //获取某个食材的数量
 int Storage::GetMaterialsNum(const string& name)
 {
-    if(MaterialsList.count(name))
-        return MaterialsList[name];
+    try
+    {
+        if (MaterialsList.count(name))
+            return MaterialsList[name];
+        else
+            throw false;
+    }
+    catch (bool a)
+    {
+        throw "Wrong name";
+    }
     return 0;
 }
