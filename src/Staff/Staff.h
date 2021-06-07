@@ -34,7 +34,7 @@ public:
     //升降职
     void Promote(int num);
     //增减绩效
-    void ChangeDonate(int num);
+    void ChangePerformance(int num);
 
 };
 

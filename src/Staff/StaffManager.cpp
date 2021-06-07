@@ -13,7 +13,7 @@ void StaffManager::SaveStaffList()
     {
         ofstream data;
         data.open("..\\Data\\StaffList.txt");
-        data << StaffList.size();
+        data << StaffList.size() <<endl;
         for(auto x:StaffList)
         {
             data << x.second.GetID() << ' ' << x.second.GetName() << ' '
@@ -55,11 +55,109 @@ Staff StaffManager::GetStaff(int id)
     try 
     {
         if (!StaffList.count(id))
-            throw "Wrong id\n";
+            throw "Wrong id";
         return StaffList.at(id);
     }
     catch (const char*a)
     {
-        cout << a;
+        throw a;
+    }
+}
+
+void StaffManager::Promote(int id, int num)
+{
+    try 
+    {
+        if (!StaffList.count(id))
+            throw "Wrong id";
+        StaffList.at(id).Promote(num);
+    }
+    catch (const char* a)
+    {
+        throw a;
+    }
+}
+
+void StaffManager::ChangePerformance(int id, int num)
+{
+    try
+    {
+        if (!StaffList.count(id))
+            throw "Wrong id";
+        StaffList.at(id).ChangePerformance(num);
+    }
+    catch (const char* a)
+    {
+        throw a;
+    }
+}
+
+void StaffManager::AddStaff(int id, string name, int level, int performance)
+{
+    try 
+    {
+        StaffList.insert({id,Staff(id,name,level,performance)});
+        SaveStaffList();
+    }
+    catch (const char*a)
+    {
+        throw a;
+    }
+}
+
+void StaffManager::DeleteStaff(int id)
+{
+    try 
+    {
+        if (!StaffList.count(id))
+            throw "Wrong id";
+        StaffList.erase(id);
+        SaveStaffList();
+    }
+    catch (const char* a)
+    {
+        throw a;
+    }
+}
+
+string StaffManager::GetStaffName(int id)
+{
+    try
+    {
+        if (!StaffList.count(id))
+            throw "Wrong id";
+        return StaffList.at(id).GetName();
+    }
+    catch (const char*a)
+    {
+        throw a;
+    }
+}
+
+int StaffManager::GetStaffLevel(int id)
+{
+    try 
+    {
+        if (!StaffList.count(id))
+            throw "Wrong id";
+        return StaffList.at(id).GetLevel();
+    }
+    catch (const char*a)
+    {
+        throw a;
+    }
+}
+
+int StaffManager::GetStaffPerformance(int id)
+{
+    try
+    {
+        if (!StaffList.count(id))
+            throw "Wrong id";
+        return StaffList.at(id).GetPerformance();
+    }
+    catch (const char*a)
+    {
+        throw a;
     }
 }

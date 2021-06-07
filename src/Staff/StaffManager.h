@@ -23,6 +23,21 @@ public:
     static void SaveStaffList();
     //获取员工类
     static Staff GetStaff(int id);
+    //升降职位
+    static void Promote(int id, int num);
+    //增减绩效
+    static void ChangePerformance(int id, int num);
+    //添加员工
+    static void AddStaff(int id, string name, int level, int performance=0);
+    //删除员工
+    static void DeleteStaff(int id);
+    //获取某个员工的姓名
+    static string  GetStaffName(int id);
+    //获取某个员工的职位
+    static int GetStaffLevel(int id);
+    //获取某个员工的绩效
+    static int GetStaffPerformance(int id);
+    
 };
 
 

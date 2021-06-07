@@ -44,20 +44,20 @@ void Staff::Promote(int num)
     }
     catch (const char* a)
     {
-        cout << a << endl;
+        throw a;
     }
 }
-void Staff::ChangeDonate(int num)
+void Staff::ChangePerformance(int num)
 {
     try
     {
         if(StaffPerformance+num>0)
             StaffPerformance+=num;
         else
-            throw "Try again";
+            throw "Wrong number";
     }
     catch (const char* a)
     {
-        cout << a << endl;
+        throw a;
     }
 }
