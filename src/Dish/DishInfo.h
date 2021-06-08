@@ -16,22 +16,18 @@ private:
 
     //菜品编号
     int DishID;
-    //菜品可用状态
-    bool IsAvailable;
     //菜品名
     string Name;
-    //菜品的原材料清单
-    map<string, int> MaterialsList;
     //菜品单价
     int Price;
     //描述
     string Description;
-    
+    //菜品的原材料清单
+    map<string, int> MaterialsList;
 public:
-    DishInfo(int dishID, bool isAvailable, string name, map<std::string, int> materials, int price, string description);
+    DishInfo(int dishID, string name, map<std::string, int> materials, int price, string description);
     
     int GetDishID() const;
-    bool GetAvailable() const;
     string GetName() const;
     map<std::string, int> GetMaterialsList() const;
     int GetPrice() const;

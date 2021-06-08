@@ -19,12 +19,14 @@ void Storage::GetMaterialsList()
         data.open("..\\Data\\Storage.txt");
         if (!data)
         {
-            throw "File Not Found";
+            throw "Storage File Not Found";
         }
         data >> n;                  //食材种类
         for(int i=1; i<=n; i++)
         {
-            data >> str >> num;     //读入名称、数量
+            getline(data,str);  //读入\n
+            getline(data,str);  //读入名称
+            data >> num;     //读入数量
             MaterialsList.insert({str,num});
         }
         data.close();               //关输入流
@@ -47,7 +49,7 @@ void Storage::SaveMaterialsList()
         data.open("..\\Data\\Storage.txt");
         data << MaterialsList.size() << '\n';               //食材种类
         for(const auto& x : MaterialsList)
-            data << x.first << ' ' << x.second << '\n';     //写入名称、数量
+            data << x.first << '\n' << x.second << '\n';     //写入名称、数量
         data.close();                                       //关输出流
     }
     catch (...)

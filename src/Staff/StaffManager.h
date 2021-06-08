@@ -15,12 +15,18 @@ class StaffManager
 private:
     //员工列表
     static map<int,Staff> StaffList;
+    //员工工作状态
+    static map<int,int> StaffState;
 
 public:
     //从本地读取员工列表
     static void GetStaffList();
     //保存员工列表到本地
     static void SaveStaffList();
+    //从本地读取员工状态
+    static void GetStaffState();
+    //保存员工状态到本地
+    static void SaveStaffState();
     //获取员工类
     static Staff GetStaff(int id);
     //升降职位
@@ -37,6 +43,10 @@ public:
     static int GetStaffLevel(int id);
     //获取某个员工的绩效
     static int GetStaffPerformance(int id);
+    //员工签到
+    static void StaffSignIn(int id);
+    //员工签退
+    static void StaffSignOut(int id);
     
 };
 

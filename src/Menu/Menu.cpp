@@ -4,10 +4,6 @@
 
 #include "Menu.h"
 
-map<int,DishInfo> Menu::GeiDishesList()
-{
-    return Dishes::GetDishesList();
-}
 
 bool Menu::SendOrder(map<int, int> dishes, int creatorID, int tableID)
 {

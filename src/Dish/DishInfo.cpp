@@ -6,16 +6,14 @@
 
 #include <utility>
 
-DishInfo::DishInfo(int dishID, bool isAvailable, string name, map<std::string, int> materials, int price, string description) {
+DishInfo::DishInfo(int dishID, string name, map<std::string, int> materials, int price, string description) {
     DishID = dishID;
-    IsAvailable = isAvailable;
     Name = std::move(name);
     MaterialsList = std::move(materials);
     Price = price;
     Description = std::move(description);
 }
 
-bool DishInfo::GetAvailable() const {return IsAvailable;}
 int DishInfo::GetDishID() const {return DishID;}
 string DishInfo::GetName() const {return Name;}
 map<std::string, int> DishInfo::GetMaterialsList() const {return MaterialsList;}

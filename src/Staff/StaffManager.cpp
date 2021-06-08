@@ -5,6 +5,7 @@
 #include "StaffManager.h"
 
 map<int,Staff> StaffManager::StaffList;
+map<int,int> StaffManager::StaffState;
 
 
 void StaffManager::SaveStaffList()
@@ -16,16 +17,15 @@ void StaffManager::SaveStaffList()
         data << StaffList.size() <<endl;
         for(auto x:StaffList)
         {
-            data << x.second.GetID() << ' ' << x.second.GetName() << ' '
-                 << x.second.GetLevel() << ' ' << x.second.GetPerformance() << '\n';
+            data << x.second.GetName() << '\n';
+            data << x.second.GetID() << ' ' << x.second.GetLevel() << ' ' << x.second.GetPerformance() << '\n';
         }
         data.close();
     }
     catch (...)
     {
-        cout << "Save Fail" << '\n';
+        throw "Save Fail";
     }
-    
 }
 
 void StaffManager::GetStaffList()
@@ -34,19 +34,65 @@ void StaffManager::GetStaffList()
     {
         ifstream data;
         data.open("..\\Data\\StaffList.txt");
+        if(!data)
+            throw "Staff File not found";
         int n,id,level,performance;
         string  name;
         data >> n;
         while (n--)
         {
-            data >> id >> name >> level >> performance;
+            getline(data,name);   //读入\n
+            getline(data,name);   //读入name
+            data >> id >> level >> performance;
             StaffList.insert({id,Staff(id,name,level,performance)});
+        }
+        data.close();
+    }
+    catch (const char* a)
+    {
+        throw a;
+    }
+    catch (...)
+    {
+        throw "Read Fail";
+    }
+}
+
+void StaffManager::GetStaffState()
+{
+    try
+    {
+        ifstream data;
+        data.open("..\\Data\\StaffState.txt");
+        int n,id,state;
+        data >> n;
+        while (n--)
+        {
+            data >> id >> state;
+            StaffState.insert({id,state});
         }
         data.close();
     }
     catch (...)
     {
         cout << "Read Fail" << '\n';
+    }
+}
+
+void StaffManager::SaveStaffState()
+{
+    try
+    {
+        ofstream data;
+        data.open("..\\Data\\StaffState.txt");
+        data << StaffState.size() << endl;
+        for(auto x:StaffState)
+            data << x.first << ' ' << x.second << '\n';
+        data.close();
+    }
+    catch (...)
+    {
+        throw "Save Fail";
     }
 }
 
@@ -96,6 +142,8 @@ void StaffManager::AddStaff(int id, string name, int level, int performance)
 {
     try 
     {
+        if(StaffList.count(id))
+            throw "StaffId you le";
         StaffList.insert({id,Staff(id,name,level,performance)});
         SaveStaffList();
     }
@@ -159,5 +207,49 @@ int StaffManager::GetStaffPerformance(int id)
     catch (const char*a)
     {
         throw a;
+    }
+}
+
+void StaffManager::StaffSignIn(int id)
+{
+    try
+    {
+        if(!StaffState.count(id))
+            throw "Wrong id";
+        else if(StaffState[id]==1)
+            throw "Staff had sign in";
+        else
+            StaffState[id] = 1;
+        SaveStaffState();
+    }
+    catch (const char* a)
+    {
+        throw a;
+    }
+    catch (...)
+    {
+        throw "Sign In Fail";
+    }
+}
+
+void StaffManager::StaffSignOut(int id)
+{
+    try
+    {
+        if(!StaffState.count(id))
+            throw "Wrong id";
+        else if(StaffState[id]==0)
+            throw "Staff have not signed in";
+        else
+            StaffState[id] = 0;
+        SaveStaffState();
+    }
+    catch (const char* a)
+    {
+        throw a;
+    }
+    catch (...)
+    {
+        throw "Sign Out Fail";
     }
 }
